@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './styles.css';
 import { ReactComponent as YouTubeIcon } from './youtube.svg';
 import { ReactComponent as LinkedinIcon } from './linkedin.svg';
@@ -13,6 +14,7 @@ function Footer() {
                 <a href="https://www.youtube.com/c/DevSuperior" target="_new">
                     <YouTubeIcon />
                 </a>
+               
                 <a href="">
                     <LinkedinIcon />
                 </a>
